@@ -1,0 +1,925 @@
+0 verbose cli D:\NodeJs\Node\node.exe D:\NodeJs\Node\node_global\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.8.0
+2 info using node@v22.20.0
+3 silly config load:file:D:\NodeJs\Node\node_global\node_modules\npm\npmrc
+4 silly config load:file:E:\Codex\AuraPlayer\.npmrc
+5 silly config load:file:C:\Users\LENOVO\.npmrc
+6 silly config load:file:E:\Codex\AuraPlayer\etc\npmrc
+7 verbose title npm install
+8 verbose argv "--prefix" ".\\AuraPlayer" "install" "--ignore-scripts"
+9 verbose logfile logs-max:10 dir:E:\Codex\AuraPlayer\.npm-cache\_logs\2026-05-25T16_45_53_985Z-
+10 verbose logfile E:\Codex\AuraPlayer\.npm-cache\_logs\2026-05-25T16_45_53_985Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmmirror.com/npm attempt 1 failed with EACCES
+14 silly idealTree buildDeps
+15 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\baseline-browser-mapping' ]
+16 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\electron-to-chromium' ]
+17 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\express-rate-limit' ]
+18 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\hono' ]
+19 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\next' ]
+20 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\postcss' ]
+21 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\qs' ]
+22 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\resolve' ]
+23 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\typescript-eslint' ]
+24 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\unrs-resolver' ]
+25 silly reify mark retired [
+25 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\claude-agent-sdk'
+25 silly reify ]
+26 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\sdk' ]
+27 silly reify mark retired [
+27 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\claude-agent-sdk-win32-x64'
+27 silly reify ]
+28 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\compat-data' ]
+29 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\zod' ]
+30 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\parser' ]
+31 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@napi-rs\\wasm-runtime' ]
+32 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@next\\env' ]
+33 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@next\\swc-win32-x64-msvc' ]
+34 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@tailwindcss\\postcss' ]
+35 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@types\\node' ]
+36 silly reify mark retired [
+36 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\eslint-plugin'
+36 silly reify ]
+37 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@types\\react' ]
+38 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\parser' ]
+39 silly reify mark retired [
+39 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\scope-manager'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\project-service'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\tsconfig-utils'
+41 silly reify ]
+42 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\types' ]
+43 silly reify mark retired [
+43 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\type-utils'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\typescript-estree'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\visitor-keys'
+46 silly reify ]
+47 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\utils' ]
+48 silly reify mark retired [
+48 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\acorn',
+48 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn',
+48 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn.cmd',
+48 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn.ps1'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\browserslist',
+49 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist',
+49 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist.cmd',
+49 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist.ps1'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\eslint',
+50 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint',
+50 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint.cmd',
+50 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint.ps1'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\is-bun-module\\node_modules\\semver'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\jiti',
+52 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti',
+52 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti.cmd',
+52 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti.ps1'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\js-yaml',
+53 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml',
+53 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml.cmd',
+53 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml.ps1'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\jsesc',
+54 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc',
+54 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc.cmd',
+54 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc.ps1'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\json5',
+55 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5',
+55 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5.cmd',
+55 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5.ps1'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\loose-envify',
+56 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify',
+56 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify.cmd',
+56 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify.ps1'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\napi-postinstall',
+57 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall',
+57 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall.cmd',
+57 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall.ps1'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\nanoid',
+58 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid',
+58 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid.cmd',
+58 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid.ps1'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\semver',
+59 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver',
+59 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver.cmd',
+59 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver.ps1'
+59 silly reify ]
+60 silly reify mark retired [ 'E:\\Codex\\AuraPlayer\\node_modules\\sharp\\node_modules\\semver' ]
+61 silly reify mark retired [
+61 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\json5',
+61 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5',
+61 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd',
+61 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\typescript',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc.cmd',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc.ps1',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver.cmd',
+62 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver.ps1'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\update-browserslist-db',
+63 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db',
+63 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db.cmd',
+63 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db.ps1'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\which',
+64 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which',
+64 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which.cmd',
+64 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which.ps1'
+64 silly reify ]
+65 silly reify moves {
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\baseline-browser-mapping': 'E:\\Codex\\AuraPlayer\\node_modules\\.baseline-browser-mapping-6M09S1j5',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\electron-to-chromium': 'E:\\Codex\\AuraPlayer\\node_modules\\.electron-to-chromium-4w46dGHL',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\express-rate-limit': 'E:\\Codex\\AuraPlayer\\node_modules\\.express-rate-limit-7CA2bj7c',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\hono': 'E:\\Codex\\AuraPlayer\\node_modules\\.hono-Wan9Re5m',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\next': 'E:\\Codex\\AuraPlayer\\node_modules\\.next-qQGaHu2J',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\postcss': 'E:\\Codex\\AuraPlayer\\node_modules\\.postcss-3BUome7i',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\qs': 'E:\\Codex\\AuraPlayer\\node_modules\\.qs-5w9LnXeB',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\resolve': 'E:\\Codex\\AuraPlayer\\node_modules\\.resolve-IyD3tVD2',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\typescript-eslint': 'E:\\Codex\\AuraPlayer\\node_modules\\.typescript-eslint-0eiiOCCW',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\unrs-resolver': 'E:\\Codex\\AuraPlayer\\node_modules\\.unrs-resolver-x0ykTLhH',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\claude-agent-sdk': 'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\.claude-agent-sdk-DWq2Ed3l',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\sdk': 'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\.sdk-JQT37cQL',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\claude-agent-sdk-win32-x64': 'E:\\Codex\\AuraPlayer\\node_modules\\@anthropic-ai\\.claude-agent-sdk-win32-x64-aj0o7oDO',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\compat-data': 'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\.compat-data-HdHMuVnc',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\zod': 'E:\\Codex\\AuraPlayer\\node_modules\\.zod-qwNBQDzN',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\parser': 'E:\\Codex\\AuraPlayer\\node_modules\\@babel\\.parser-LprwNquu',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@napi-rs\\wasm-runtime': 'E:\\Codex\\AuraPlayer\\node_modules\\@napi-rs\\.wasm-runtime-FKRjm48N',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@next\\env': 'E:\\Codex\\AuraPlayer\\node_modules\\@next\\.env-lklKBISA',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@next\\swc-win32-x64-msvc': 'E:\\Codex\\AuraPlayer\\node_modules\\@next\\.swc-win32-x64-msvc-NOxYj3NE',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@tailwindcss\\postcss': 'E:\\Codex\\AuraPlayer\\node_modules\\@tailwindcss\\.postcss-tc9UtVJj',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@types\\node': 'E:\\Codex\\AuraPlayer\\node_modules\\@types\\.node-xVYwbGjd',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\eslint-plugin': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.eslint-plugin-Hz0I4hVn',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@types\\react': 'E:\\Codex\\AuraPlayer\\node_modules\\@types\\.react-JdBVqMjm',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\parser': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.parser-HbjENzAc',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\scope-manager': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.scope-manager-KJZPei4i',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\project-service': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.project-service-s6AnA63b',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\tsconfig-utils': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.tsconfig-utils-RcBbMlM3',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\types': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.types-v3Mt09iQ',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\type-utils': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.type-utils-eDjot3RT',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\typescript-estree': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.typescript-estree-eeKjw9Uc',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc': 'E:\\Codex\\AuraPlayer\\node_modules\\@unrs\\.resolver-binding-win32-x64-msvc-BQ7QEFMV',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\visitor-keys': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.visitor-keys-B2OimcHp',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\utils': 'E:\\Codex\\AuraPlayer\\node_modules\\@typescript-eslint\\.utils-U8Nr0RO4',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\acorn': 'E:\\Codex\\AuraPlayer\\node_modules\\.acorn-QstMeXYT',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.acorn-vRLFtjNS',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.acorn.cmd-AM08ds5C',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\acorn.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.acorn.ps1-MO99ZUFR',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\browserslist': 'E:\\Codex\\AuraPlayer\\node_modules\\.browserslist-JYV2nxw0',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.browserslist-iOI4o6Ak',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.browserslist.cmd-o7MD2hoR',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\browserslist.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.browserslist.ps1-VADQwvql',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\eslint': 'E:\\Codex\\AuraPlayer\\node_modules\\.eslint-bqWm1bV1',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.eslint-vtPB1ORw',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.eslint.cmd-364IhROr',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\eslint.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.eslint.ps1-MdweJxGI',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\is-bun-module\\node_modules\\semver': 'E:\\Codex\\AuraPlayer\\node_modules\\is-bun-module\\node_modules\\.semver-l6BTzv3B',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\jiti': 'E:\\Codex\\AuraPlayer\\node_modules\\.jiti-BnrmY34l',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jiti-5wOAJO1C',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jiti.cmd-owTKL9Oj',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jiti.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jiti.ps1-vqzk63Dn',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\js-yaml': 'E:\\Codex\\AuraPlayer\\node_modules\\.js-yaml-j2sRGhRA',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.js-yaml-09y3J03p',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.js-yaml.cmd-6cV61c35',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\js-yaml.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.js-yaml.ps1-2EOFOPHa',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\jsesc': 'E:\\Codex\\AuraPlayer\\node_modules\\.jsesc-eBHBBAnm',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jsesc-U6Pyqs23',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jsesc.cmd-Sztv9Whj',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\jsesc.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.jsesc.ps1-KwDL3vVP',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\json5': 'E:\\Codex\\AuraPlayer\\node_modules\\.json5-ZCmwxR6z',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.json5-XDa5zQSD',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.json5.cmd-ho7kh5v8',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\json5.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.json5.ps1-rU5DBJWA',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\loose-envify': 'E:\\Codex\\AuraPlayer\\node_modules\\.loose-envify-31oPpgAA',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.loose-envify-9m0fTOJ7',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.loose-envify.cmd-P4XnFIub',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\loose-envify.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.loose-envify.ps1-IiYp3p3Z',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\napi-postinstall': 'E:\\Codex\\AuraPlayer\\node_modules\\.napi-postinstall-7rWgOMNL',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.napi-postinstall-dYzujlSg',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.napi-postinstall.cmd-uI2g3Ys9',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\napi-postinstall.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.napi-postinstall.ps1-sBayR9su',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\nanoid': 'E:\\Codex\\AuraPlayer\\node_modules\\.nanoid-aksbVnDh',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.nanoid-fDThfEba',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.nanoid.cmd-iOiORfQV',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\nanoid.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.nanoid.ps1-TuHj8I9N',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\semver': 'E:\\Codex\\AuraPlayer\\node_modules\\.semver-NVW0oUBD',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.semver-3KFQqrdC',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.semver.cmd-vKNrjoM6',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\semver.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.semver.ps1-EWN4JOOd',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\sharp\\node_modules\\semver': 'E:\\Codex\\AuraPlayer\\node_modules\\sharp\\node_modules\\.semver-qwpHoPun',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\json5': 'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.json5-snFZBmJI',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5': 'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5-UpzBeEoq',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.cmd-dUZJpanh',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.ps1-x61FB24f',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\typescript': 'E:\\Codex\\AuraPlayer\\node_modules\\.typescript-JXb3CZJ9',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsc-o42lR9ib',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsc.cmd-6lqxcaie',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsc.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsc.ps1-1fS6CSoR',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsserver-SvIgK5Kn',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsserver.cmd-G4gHvzBr',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\tsserver.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.tsserver.ps1-hQ6rHwyZ',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\update-browserslist-db': 'E:\\Codex\\AuraPlayer\\node_modules\\.update-browserslist-db-QpNKsgaq',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.update-browserslist-db-nEL6MYY8',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.update-browserslist-db.cmd-Fwy2NsiK',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\update-browserslist-db.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.update-browserslist-db.ps1-ntVS0023',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\which': 'E:\\Codex\\AuraPlayer\\node_modules\\.which-2x1yDkE5',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.node-which-Pm1uES19',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which.cmd': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.node-which.cmd-2awU6w7D',
+65 silly reify   'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\node-which.ps1': 'E:\\Codex\\AuraPlayer\\node_modules\\.bin\\.node-which.ps1-tJUH3QwP'
+65 silly reify }
+66 silly audit bulk request {
+66 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-darwin-arm64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-darwin-x64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-linux-arm64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-linux-x64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-linux-x64-musl': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-win32-arm64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/claude-agent-sdk-win32-x64': [ '0.2.123' ],
+66 silly audit   '@anthropic-ai/sdk': [ '0.81.0' ],
+66 silly audit   '@babel/code-frame': [ '7.29.0' ],
+66 silly audit   '@babel/compat-data': [ '7.29.0' ],
+66 silly audit   '@babel/core': [ '7.29.0' ],
+66 silly audit   '@babel/generator': [ '7.29.1' ],
+66 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+66 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+66 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+66 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+66 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+66 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+66 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+66 silly audit   '@babel/helpers': [ '7.29.2' ],
+66 silly audit   '@babel/parser': [ '7.29.2' ],
+66 silly audit   '@babel/runtime': [ '7.29.2' ],
+66 silly audit   '@babel/template': [ '7.28.6' ],
+66 silly audit   '@babel/traverse': [ '7.29.0' ],
+66 silly audit   '@babel/types': [ '7.29.0' ],
+66 silly audit   '@emnapi/core': [ '1.10.0' ],
+66 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+66 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+66 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+66 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+66 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+66 silly audit   '@eslint/config-array': [ '0.21.2' ],
+66 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+66 silly audit   '@eslint/core': [ '0.17.0' ],
+66 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+66 silly audit   '@eslint/js': [ '9.39.4' ],
+66 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+66 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+66 silly audit   '@hono/node-server': [ '1.19.14' ],
+66 silly audit   '@humanfs/core': [ '0.19.2' ],
+66 silly audit   '@humanfs/node': [ '0.16.8' ],
+66 silly audit   '@humanfs/types': [ '0.15.0' ],
+66 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+66 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+66 silly audit   '@img/colour': [ '1.1.0' ],
+66 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+66 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+66 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+66 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+66 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+66 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+66 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+66 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+66 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+66 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+66 silly audit   '@modelcontextprotocol/sdk': [ '1.29.0' ],
+66 silly audit   ajv: [ '8.20.0', '6.15.0' ],
+66 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+66 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+66 silly audit   '@next/env': [ '16.2.4' ],
+66 silly audit   '@next/eslint-plugin-next': [ '16.2.4' ],
+66 silly audit   '@next/swc-darwin-arm64': [ '16.2.4' ],
+66 silly audit   '@next/swc-darwin-x64': [ '16.2.4' ],
+66 silly audit   '@next/swc-linux-arm64-gnu': [ '16.2.4' ],
+66 silly audit   '@next/swc-linux-arm64-musl': [ '16.2.4' ],
+66 silly audit   '@next/swc-linux-x64-gnu': [ '16.2.4' ],
+66 silly audit   '@next/swc-linux-x64-musl': [ '16.2.4' ],
+66 silly audit   '@next/swc-win32-arm64-msvc': [ '16.2.4' ],
+66 silly audit   '@next/swc-win32-x64-msvc': [ '16.2.4' ],
+66 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+66 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+66 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+66 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+66 silly audit   '@rtsao/scc': [ '1.1.0' ],
+66 silly audit   '@swc/helpers': [ '0.5.15' ],
+66 silly audit   '@tailwindcss/node': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.2.4' ],
+66 silly audit   '@tailwindcss/postcss': [ '4.2.4' ],
+66 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+66 silly audit   '@types/estree': [ '1.0.8' ],
+66 silly audit   '@types/json-schema': [ '7.0.15' ],
+66 silly audit   '@types/json5': [ '0.0.29' ],
+66 silly audit   '@types/node': [ '20.19.39' ],
+66 silly audit   '@types/react': [ '19.2.14' ],
+66 silly audit   '@types/react-dom': [ '19.2.3' ],
+66 silly audit   '@typescript-eslint/eslint-plugin': [ '8.59.1' ],
+66 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+66 silly audit   '@typescript-eslint/parser': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/project-service': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/scope-manager': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/type-utils': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/types': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/typescript-estree': [ '8.59.1' ],
+66 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+66 silly audit   'brace-expansion': [ '5.0.5', '1.1.14' ],
+66 silly audit   minimatch: [ '10.2.5', '3.1.5' ],
+66 silly audit   semver: [ '7.7.4', '6.3.1' ],
+66 silly audit   '@typescript-eslint/utils': [ '8.59.1' ],
+66 silly audit   '@typescript-eslint/visitor-keys': [ '8.59.1' ],
+66 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+66 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+66 silly audit   accepts: [ '2.0.0' ],
+66 silly audit   acorn: [ '8.16.0' ],
+66 silly audit   'acorn-jsx': [ '5.3.2' ],
+66 silly audit   'ajv-formats': [ '3.0.1' ],
+66 silly audit   'ansi-styles': [ '4.3.0' ],
+66 silly audit   argparse: [ '2.0.1' ],
+66 silly audit   'aria-query': [ '5.3.2' ],
+66 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+66 silly audit   'array-includes': [ '3.1.9' ],
+66 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+66 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+66 silly audit   'array.prototype.flat': [ '1.3.3' ],
+66 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+66 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+66 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+66 silly audit   'ast-types-flow': [ '0.0.8' ],
+66 silly audit   'async-function': [ '1.0.0' ],
+66 silly audit   'available-typed-arrays': [ '1.0.7' ],
+66 silly audit   'axe-core': [ '4.11.4' ],
+66 silly audit   'axobject-query': [ '4.1.0' ],
+66 silly audit   'baseline-browser-mapping': [ '2.10.24' ],
+66 silly audit   'body-parser': [ '2.2.2' ],
+66 silly audit   braces: [ '3.0.3' ],
+66 silly audit   browserslist: [ '4.28.2' ],
+66 silly audit   bytes: [ '3.1.2' ],
+66 silly audit   'call-bind': [ '1.0.9' ],
+66 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+66 silly audit   'call-bound': [ '1.0.4' ],
+66 silly audit   callsites: [ '3.1.0' ],
+66 silly audit   'caniuse-lite': [ '1.0.30001791' ],
+66 silly audit   chalk: [ '4.1.2' ],
+66 silly audit   'client-only': [ '0.0.1' ],
+66 silly audit   'color-convert': [ '2.0.1' ],
+66 silly audit   'color-name': [ '1.1.4' ],
+66 silly audit   'concat-map': [ '0.0.1' ],
+66 silly audit   'content-disposition': [ '1.1.0' ],
+66 silly audit   'content-type': [ '1.0.5' ],
+66 silly audit   'convert-source-map': [ '2.0.0' ],
+66 silly audit   cookie: [ '0.7.2' ],
+66 silly audit   'cookie-signature': [ '1.2.2' ],
+66 silly audit   cors: [ '2.8.6' ],
+66 silly audit   'cross-spawn': [ '7.0.6' ],
+66 silly audit   csstype: [ '3.2.3' ],
+66 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+66 silly audit   'data-view-buffer': [ '1.0.2' ],
+66 silly audit   'data-view-byte-length': [ '1.0.2' ],
+66 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+66 silly audit   debug: [ '4.4.3', '3.2.7' ],
+66 silly audit   'deep-is': [ '0.1.4' ],
+66 silly audit   'define-data-property': [ '1.1.4' ],
+66 silly audit   'define-properties': [ '1.2.1' ],
+66 silly audit   depd: [ '2.0.0' ],
+66 silly audit   'detect-libc': [ '2.1.2' ],
+66 silly audit   doctrine: [ '2.1.0' ],
+66 silly audit   'dunder-proto': [ '1.0.1' ],
+66 silly audit   'ee-first': [ '1.1.1' ],
+66 silly audit   'electron-to-chromium': [ '1.5.345' ],
+66 silly audit   'emoji-regex': [ '9.2.2' ],
+66 silly audit   encodeurl: [ '2.0.0' ],
+66 silly audit   'enhanced-resolve': [ '5.21.0' ],
+66 silly audit   'es-abstract': [ '1.24.2' ],
+66 silly audit   'es-define-property': [ '1.0.1' ],
+66 silly audit   'es-errors': [ '1.3.0' ],
+66 silly audit   'es-iterator-helpers': [ '1.3.2' ],
+66 silly audit   'es-object-atoms': [ '1.1.1' ],
+66 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+66 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+66 silly audit   'es-to-primitive': [ '1.3.0' ],
+66 silly audit   escalade: [ '3.2.0' ],
+66 silly audit   'escape-html': [ '1.0.3' ],
+66 silly audit   'escape-string-regexp': [ '4.0.0' ],
+66 silly audit   eslint: [ '9.39.4' ],
+66 silly audit   'eslint-config-next': [ '16.2.4' ],
+66 silly audit   globals: [ '16.4.0', '14.0.0' ],
+66 silly audit   'eslint-import-resolver-node': [ '0.3.10' ],
+66 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+66 silly audit   'eslint-module-utils': [ '2.12.1' ],
+66 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+66 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+66 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+66 silly audit   'eslint-plugin-react-hooks': [ '7.1.1' ],
+66 silly audit   'eslint-scope': [ '8.4.0' ],
+66 silly audit   espree: [ '10.4.0' ],
+66 silly audit   esquery: [ '1.7.0' ],
+66 silly audit   esrecurse: [ '4.3.0' ],
+66 silly audit   estraverse: [ '5.3.0' ],
+66 silly audit   esutils: [ '2.0.3' ],
+66 silly audit   etag: [ '1.8.1' ],
+66 silly audit   eventsource: [ '3.0.7' ],
+66 silly audit   'eventsource-parser': [ '3.0.8' ],
+66 silly audit   express: [ '5.2.1' ],
+66 silly audit   'express-rate-limit': [ '8.4.1' ],
+66 silly audit   'fast-deep-equal': [ '3.1.3' ],
+66 silly audit   'fast-glob': [ '3.3.1' ],
+66 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+66 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+66 silly audit   'fast-levenshtein': [ '2.0.6' ],
+66 silly audit   'fast-uri': [ '3.1.0' ],
+66 silly audit   fastq: [ '1.20.1' ],
+66 silly audit   'file-entry-cache': [ '8.0.0' ],
+66 silly audit   'fill-range': [ '7.1.1' ],
+66 silly audit   finalhandler: [ '2.1.1' ],
+66 silly audit   'find-up': [ '5.0.0' ],
+66 silly audit   'flat-cache': [ '4.0.1' ],
+66 silly audit   flatted: [ '3.4.2' ],
+66 silly audit   'for-each': [ '0.3.5' ],
+66 silly audit   forwarded: [ '0.2.0' ],
+66 silly audit   fresh: [ '2.0.0' ],
+66 silly audit   'function-bind': [ '1.1.2' ],
+66 silly audit   'function.prototype.name': [ '1.1.8' ],
+66 silly audit   'functions-have-names': [ '1.2.3' ],
+66 silly audit   'generator-function': [ '2.0.1' ],
+66 silly audit   gensync: [ '1.0.0-beta.2' ],
+66 silly audit   'get-intrinsic': [ '1.3.0' ],
+66 silly audit   'get-proto': [ '1.0.1' ],
+66 silly audit   'get-symbol-description': [ '1.1.0' ],
+66 silly audit   'get-tsconfig': [ '4.14.0' ],
+66 silly audit   globalthis: [ '1.0.4' ],
+66 silly audit   gopd: [ '1.2.0' ],
+66 silly audit   'graceful-fs': [ '4.2.11' ],
+66 silly audit   'has-bigints': [ '1.1.0' ],
+66 silly audit   'has-flag': [ '4.0.0' ],
+66 silly audit   'has-property-descriptors': [ '1.0.2' ],
+66 silly audit   'has-proto': [ '1.2.0' ],
+66 silly audit   'has-symbols': [ '1.1.0' ],
+66 silly audit   'has-tostringtag': [ '1.0.2' ],
+66 silly audit   hasown: [ '2.0.3' ],
+66 silly audit   'hermes-estree': [ '0.25.1' ],
+66 silly audit   'hermes-parser': [ '0.25.1' ],
+66 silly audit   hono: [ '4.12.15' ],
+66 silly audit   'http-errors': [ '2.0.1' ],
+66 silly audit   'iconv-lite': [ '0.7.2' ],
+66 silly audit   'import-fresh': [ '3.3.1' ],
+66 silly audit   imurmurhash: [ '0.1.4' ],
+66 silly audit   inherits: [ '2.0.4' ],
+66 silly audit   'internal-slot': [ '1.1.0' ],
+66 silly audit   'ip-address': [ '10.1.0' ],
+66 silly audit   'ipaddr.js': [ '1.9.1' ],
+66 silly audit   'is-array-buffer': [ '3.0.5' ],
+66 silly audit   'is-async-function': [ '2.1.1' ],
+66 silly audit   'is-bigint': [ '1.1.0' ],
+66 silly audit   'is-boolean-object': [ '1.2.2' ],
+66 silly audit   'is-bun-module': [ '2.0.0' ],
+66 silly audit   'is-callable': [ '1.2.7' ],
+66 silly audit   'is-core-module': [ '2.16.1' ],
+66 silly audit   'is-data-view': [ '1.0.2' ],
+66 silly audit   'is-date-object': [ '1.1.0' ],
+66 silly audit   'is-extglob': [ '2.1.1' ],
+66 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+66 silly audit   'is-generator-function': [ '1.1.2' ],
+66 silly audit   'is-glob': [ '4.0.3' ],
+66 silly audit   'is-map': [ '2.0.3' ],
+66 silly audit   'is-negative-zero': [ '2.0.3' ],
+66 silly audit   'is-number': [ '7.0.0' ],
+66 silly audit   'is-number-object': [ '1.1.1' ],
+66 silly audit   'is-promise': [ '4.0.0' ],
+66 silly audit   'is-regex': [ '1.2.1' ],
+66 silly audit   'is-set': [ '2.0.3' ],
+66 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+66 silly audit   'is-string': [ '1.1.1' ],
+66 silly audit   'is-symbol': [ '1.1.1' ],
+66 silly audit   'is-typed-array': [ '1.1.15' ],
+66 silly audit   'is-weakmap': [ '2.0.2' ],
+66 silly audit   'is-weakref': [ '1.1.1' ],
+66 silly audit   'is-weakset': [ '2.0.4' ],
+66 silly audit   isarray: [ '2.0.5' ],
+66 silly audit   isexe: [ '2.0.0' ],
+66 silly audit   'iterator.prototype': [ '1.1.5' ],
+66 silly audit   jiti: [ '2.6.1' ],
+66 silly audit   jose: [ '6.2.3' ],
+66 silly audit   'js-tokens': [ '4.0.0' ],
+66 silly audit   'js-yaml': [ '4.1.1' ],
+66 silly audit   jsesc: [ '3.1.0' ],
+66 silly audit   'json-buffer': [ '3.0.1' ],
+66 silly audit   'json-schema-to-ts': [ '3.1.1' ],
+66 silly audit   'json-schema-typed': [ '8.0.2' ],
+66 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+66 silly audit   json5: [ '2.2.3', '1.0.2' ],
+66 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+66 silly audit   keyv: [ '4.5.4' ],
+66 silly audit   'language-subtag-registry': [ '0.3.23' ],
+66 silly audit   'language-tags': [ '1.0.9' ],
+66 silly audit   levn: [ '0.4.1' ],
+66 silly audit   lightningcss: [ '1.32.0' ],
+66 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+66 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+66 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+66 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+66 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+66 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+66 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+66 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+66 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+66 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+66 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+66 silly audit   'locate-path': [ '6.0.0' ],
+66 silly audit   'lodash.merge': [ '4.6.2' ],
+66 silly audit   'loose-envify': [ '1.4.0' ],
+66 silly audit   'lru-cache': [ '5.1.1' ],
+66 silly audit   'magic-string': [ '0.30.21' ],
+66 silly audit   'math-intrinsics': [ '1.1.0' ],
+66 silly audit   'media-typer': [ '1.1.0' ],
+66 silly audit   'merge-descriptors': [ '2.0.0' ],
+66 silly audit   merge2: [ '1.4.1' ],
+66 silly audit   micromatch: [ '4.0.8' ],
+66 silly audit   'mime-db': [ '1.54.0' ],
+66 silly audit   'mime-types': [ '3.0.2' ],
+66 silly audit   minimist: [ '1.2.8' ],
+66 silly audit   ms: [ '2.1.3' ],
+66 silly audit   nanoid: [ '3.3.11' ],
+66 silly audit   'napi-postinstall': [ '0.3.4' ],
+66 silly audit   'natural-compare': [ '1.4.0' ],
+66 silly audit   negotiator: [ '1.0.0' ],
+66 silly audit   next: [ '16.2.4' ],
+66 silly audit   postcss: [ '8.4.31', '8.5.12' ],
+66 silly audit   'node-exports-info': [ '1.6.0' ],
+66 silly audit   'node-releases': [ '2.0.38' ],
+66 silly audit   'object-assign': [ '4.1.1' ],
+66 silly audit   'object-inspect': [ '1.13.4' ],
+66 silly audit   'object-keys': [ '1.1.1' ],
+66 silly audit   'object.assign': [ '4.1.7' ],
+66 silly audit   'object.entries': [ '1.1.9' ],
+66 silly audit   'object.fromentries': [ '2.0.8' ],
+66 silly audit   'object.groupby': [ '1.0.3' ],
+66 silly audit   'object.values': [ '1.2.1' ],
+66 silly audit   'on-finished': [ '2.4.1' ],
+66 silly audit   once: [ '1.4.0' ],
+66 silly audit   optionator: [ '0.9.4' ],
+66 silly audit   'own-keys': [ '1.0.1' ],
+66 silly audit   'p-limit': [ '3.1.0' ],
+66 silly audit   'p-locate': [ '5.0.0' ],
+66 silly audit   'parent-module': [ '1.0.1' ],
+66 silly audit   parseurl: [ '1.3.3' ],
+66 silly audit   'path-exists': [ '4.0.0' ],
+66 silly audit   'path-key': [ '3.1.1' ],
+66 silly audit   'path-parse': [ '1.0.7' ],
+66 silly audit   'path-to-regexp': [ '8.4.2' ],
+66 silly audit   picocolors: [ '1.1.1' ],
+66 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+66 silly audit   'pkce-challenge': [ '5.0.1' ],
+66 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+66 silly audit   'prelude-ls': [ '1.2.1' ],
+66 silly audit   'prop-types': [ '15.8.1' ],
+66 silly audit   'proxy-addr': [ '2.0.7' ],
+66 silly audit   punycode: [ '2.3.1' ],
+66 silly audit   qs: [ '6.15.1' ],
+66 silly audit   'queue-microtask': [ '1.2.3' ],
+66 silly audit   'range-parser': [ '1.2.1' ],
+66 silly audit   'raw-body': [ '3.0.2' ],
+66 silly audit   react: [ '19.2.4' ],
+66 silly audit   'react-dom': [ '19.2.4' ],
+66 silly audit   'react-is': [ '16.13.1' ],
+66 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+66 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+66 silly audit   'require-from-string': [ '2.0.2' ],
+66 silly audit   resolve: [ '2.0.0-next.6' ],
+66 silly audit   'resolve-from': [ '4.0.0' ],
+66 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+66 silly audit   reusify: [ '1.1.0' ],
+66 silly audit   router: [ '2.2.0' ],
+66 silly audit   'run-parallel': [ '1.2.0' ],
+66 silly audit   'safe-array-concat': [ '1.1.4' ],
+66 silly audit   'safe-push-apply': [ '1.0.0' ],
+66 silly audit   'safe-regex-test': [ '1.1.0' ],
+66 silly audit   'safer-buffer': [ '2.1.2' ],
+66 silly audit   scheduler: [ '0.27.0' ],
+66 silly audit   send: [ '1.2.1' ],
+66 silly audit   'serve-static': [ '2.2.1' ],
+66 silly audit   'set-function-length': [ '1.2.2' ],
+66 silly audit   'set-function-name': [ '2.0.2' ],
+66 silly audit   'set-proto': [ '1.0.0' ],
+66 silly audit   setprototypeof: [ '1.2.0' ],
+66 silly audit   sharp: [ '0.34.5' ],
+66 silly audit   'shebang-command': [ '2.0.0' ],
+66 silly audit   'shebang-regex': [ '3.0.0' ],
+66 silly audit   'side-channel': [ '1.1.0' ],
+66 silly audit   'side-channel-list': [ '1.0.1' ],
+66 silly audit   'side-channel-map': [ '1.0.1' ],
+66 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+66 silly audit   'source-map-js': [ '1.2.1' ],
+66 silly audit   'stable-hash': [ '0.0.5' ],
+66 silly audit   statuses: [ '2.0.2' ],
+66 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+66 silly audit   'string.prototype.includes': [ '2.0.1' ],
+66 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+66 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+66 silly audit   'string.prototype.trim': [ '1.2.10' ],
+66 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+66 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+66 silly audit   'strip-bom': [ '3.0.0' ],
+66 silly audit   'strip-json-comments': [ '3.1.1' ],
+66 silly audit   'styled-jsx': [ '5.1.6' ],
+66 silly audit   'supports-color': [ '7.2.0' ],
+66 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+66 silly audit   tailwindcss: [ '4.2.4' ],
+66 silly audit   tapable: [ '2.3.3' ],
+66 silly audit   tinyglobby: [ '0.2.16' ],
+66 silly audit   fdir: [ '6.5.0' ],
+66 silly audit   'to-regex-range': [ '5.0.1' ],
+66 silly audit   toidentifier: [ '1.0.1' ],
+66 silly audit   'ts-algebra': [ '2.0.0' ],
+66 silly audit   'ts-api-utils': [ '2.5.0' ],
+66 silly audit   'tsconfig-paths': [ '3.15.0' ],
+66 silly audit   tslib: [ '2.8.1' ],
+66 silly audit   'type-check': [ '0.4.0' ],
+66 silly audit   'type-is': [ '2.0.1' ],
+66 silly audit   'typed-array-buffer': [ '1.0.3' ],
+66 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+66 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+66 silly audit   'typed-array-length': [ '1.0.7' ],
+66 silly audit   typescript: [ '5.9.3' ],
+66 silly audit   'typescript-eslint': [ '8.59.1' ],
+66 silly audit   'unbox-primitive': [ '1.1.0' ],
+66 silly audit   'undici-types': [ '6.21.0' ],
+66 silly audit   unpipe: [ '1.0.0' ],
+66 silly audit   'unrs-resolver': [ '1.11.1' ],
+66 silly audit   'update-browserslist-db': [ '1.2.3' ],
+66 silly audit   'uri-js': [ '4.4.1' ],
+66 silly audit   vary: [ '1.1.2' ],
+66 silly audit   which: [ '2.0.2' ],
+66 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+66 silly audit   'which-builtin-type': [ '1.2.1' ],
+66 silly audit   'which-collection': [ '1.0.2' ],
+66 silly audit   'which-typed-array': [ '1.1.20' ],
+66 silly audit   'word-wrap': [ '1.2.5' ],
+66 silly audit   wrappy: [ '1.0.2' ],
+66 silly audit   yallist: [ '3.1.1' ],
+66 silly audit   'yocto-queue': [ '0.1.0' ],
+66 silly audit   zod: [ '4.4.1' ],
+66 silly audit   'zod-to-json-schema': [ '3.25.2' ],
+66 silly audit   'zod-validation-error': [ '4.0.2' ]
+66 silly audit }
+67 verbose audit error FetchError: request to https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk failed, reason: 
+67 verbose audit error     at ClientRequest.<anonymous> (D:\NodeJs\Node\node_global\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+67 verbose audit error     at ClientRequest.emit (node:events:519:28)
+67 verbose audit error     at emitErrorEvent (node:_http_client:105:11)
+67 verbose audit error     at _destroy (node:_http_client:898:9)
+67 verbose audit error     at onSocketNT (node:_http_client:918:5)
+67 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+67 verbose audit error   code: 'EACCES',
+67 verbose audit error   errno: 'EACCES',
+67 verbose audit error   type: 'system'
+67 verbose audit error }
+68 silly audit error undefined
+69 silly audit report null
+70 http cache which@https://registry.npmmirror.com/which/-/which-2.0.2.tgz 0ms (cache hit)
+71 http cache typescript@https://registry.npmmirror.com/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+72 http cache semver@https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+73 http cache nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+74 http cache napi-postinstall@https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+75 http cache update-browserslist-db@https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+76 http cache loose-envify@https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+77 http cache json5@https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+78 http cache jsesc@https://registry.npmmirror.com/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+79 http cache @typescript-eslint/utils@https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.1.tgz 0ms (cache hit)
+80 http cache js-yaml@https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+81 http cache @typescript-eslint/visitor-keys@https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.1.tgz 0ms (cache hit)
+82 http cache eslint@https://registry.npmmirror.com/eslint/-/eslint-9.39.4.tgz 0ms (cache hit)
+83 http cache jiti@https://registry.npmmirror.com/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+84 http cache acorn@https://registry.npmmirror.com/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+85 http cache @typescript-eslint/typescript-estree@https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.1.tgz 0ms (cache hit)
+86 http cache @typescript-eslint/type-utils@https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-8.59.1.tgz 0ms (cache hit)
+87 http cache @unrs/resolver-binding-win32-x64-msvc@https://registry.npmmirror.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz 0ms (cache hit)
+88 http cache @typescript-eslint/types@https://registry.npmmirror.com/@typescript-eslint/types/-/types-8.59.1.tgz 0ms (cache hit)
+89 http cache browserslist@https://registry.npmmirror.com/browserslist/-/browserslist-4.28.2.tgz 0ms (cache hit)
+90 http cache @typescript-eslint/tsconfig-utils@https://registry.npmmirror.com/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.1.tgz 0ms (cache hit)
+91 http cache @typescript-eslint/scope-manager@https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-8.59.1.tgz 0ms (cache hit)
+92 http cache @typescript-eslint/project-service@https://registry.npmmirror.com/@typescript-eslint/project-service/-/project-service-8.59.1.tgz 0ms (cache hit)
+93 http cache @typescript-eslint/parser@https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-8.59.1.tgz 0ms (cache hit)
+94 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-20.19.39.tgz 0ms (cache hit)
+95 http cache @next/swc-win32-x64-msvc@https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.4.tgz 0ms (cache hit)
+96 http cache @tailwindcss/postcss@https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.2.4.tgz 0ms (cache hit)
+97 http cache @next/env@https://registry.npmmirror.com/@next/env/-/env-16.2.4.tgz 0ms (cache hit)
+98 http cache @typescript-eslint/eslint-plugin@https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.1.tgz 0ms (cache hit)
+99 http cache @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 0ms (cache hit)
+100 http cache @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.14.tgz 0ms (cache hit)
+101 http cache zod@https://registry.npmmirror.com/zod/-/zod-4.4.1.tgz 0ms (cache hit)
+102 http cache @babel/parser@https://registry.npmmirror.com/@babel/parser/-/parser-7.29.2.tgz 0ms (cache hit)
+103 http cache @anthropic-ai/sdk@https://registry.npmmirror.com/@anthropic-ai/sdk/-/sdk-0.81.0.tgz 0ms (cache hit)
+104 http cache @babel/compat-data@https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.29.0.tgz 0ms (cache hit)
+105 http cache @anthropic-ai/claude-agent-sdk-win32-x64@https://registry.npmmirror.com/@anthropic-ai/claude-agent-sdk-win32-x64/-/claude-agent-sdk-win32-x64-0.2.123.tgz 0ms (cache hit)
+106 http cache @anthropic-ai/claude-agent-sdk@https://registry.npmmirror.com/@anthropic-ai/claude-agent-sdk/-/claude-agent-sdk-0.2.123.tgz 0ms (cache hit)
+107 http cache typescript-eslint@https://registry.npmmirror.com/typescript-eslint/-/typescript-eslint-8.59.1.tgz 0ms (cache hit)
+108 http cache unrs-resolver@https://registry.npmmirror.com/unrs-resolver/-/unrs-resolver-1.11.1.tgz 0ms (cache hit)
+109 http cache resolve@https://registry.npmmirror.com/resolve/-/resolve-2.0.0-next.6.tgz 0ms (cache hit)
+110 http cache qs@https://registry.npmmirror.com/qs/-/qs-6.15.1.tgz 0ms (cache hit)
+111 http cache next@https://registry.npmmirror.com/next/-/next-16.2.4.tgz 0ms (cache hit)
+112 http cache postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.12.tgz 0ms (cache hit)
+113 http cache json5@https://registry.npmmirror.com/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+114 http cache hono@https://registry.npmmirror.com/hono/-/hono-4.12.15.tgz 0ms (cache hit)
+115 http cache semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+116 http cache express-rate-limit@https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-8.4.1.tgz 0ms (cache hit)
+117 http cache electron-to-chromium@https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.5.345.tgz 0ms (cache hit)
+118 http cache semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+119 http cache baseline-browser-mapping@https://registry.npmmirror.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.24.tgz 0ms (cache hit)
+120 http cache semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+121 http cache brace-expansion@https://registry.npmmirror.com/brace-expansion/-/brace-expansion-5.0.5.tgz 0ms (cache hit)
+122 silly tarball no local data for which@https://registry.npmmirror.com/which/-/which-2.0.2.tgz. Extracting by manifest.
+123 silly tarball no local data for typescript@https://registry.npmmirror.com/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+124 silly tarball no local data for semver@https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+125 silly tarball no local data for nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+126 silly tarball no local data for napi-postinstall@https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.4.tgz. Extracting by manifest.
+127 silly tarball no local data for update-browserslist-db@https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+128 silly tarball no local data for loose-envify@https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+129 silly tarball no local data for json5@https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+130 silly tarball no local data for jsesc@https://registry.npmmirror.com/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+131 silly tarball no local data for @typescript-eslint/utils@https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.1.tgz. Extracting by manifest.
+132 silly tarball no local data for js-yaml@https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.1.tgz. Extracting by manifest.
+133 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.1.tgz. Extracting by manifest.
+134 silly tarball no local data for eslint@https://registry.npmmirror.com/eslint/-/eslint-9.39.4.tgz. Extracting by manifest.
+135 silly tarball no local data for jiti@https://registry.npmmirror.com/jiti/-/jiti-2.6.1.tgz. Extracting by manifest.
+136 silly tarball no local data for acorn@https://registry.npmmirror.com/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+137 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.1.tgz. Extracting by manifest.
+138 silly tarball no local data for @typescript-eslint/type-utils@https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-8.59.1.tgz. Extracting by manifest.
+139 silly tarball no local data for @unrs/resolver-binding-win32-x64-msvc@https://registry.npmmirror.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz. Extracting by manifest.
+140 silly tarball no local data for @typescript-eslint/types@https://registry.npmmirror.com/@typescript-eslint/types/-/types-8.59.1.tgz. Extracting by manifest.
+141 silly tarball no local data for browserslist@https://registry.npmmirror.com/browserslist/-/browserslist-4.28.2.tgz. Extracting by manifest.
+142 silly tarball no local data for @typescript-eslint/tsconfig-utils@https://registry.npmmirror.com/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.1.tgz. Extracting by manifest.
+143 silly tarball no local data for @typescript-eslint/scope-manager@https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-8.59.1.tgz. Extracting by manifest.
+144 silly tarball no local data for @typescript-eslint/project-service@https://registry.npmmirror.com/@typescript-eslint/project-service/-/project-service-8.59.1.tgz. Extracting by manifest.
+145 silly tarball no local data for @typescript-eslint/parser@https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-8.59.1.tgz. Extracting by manifest.
+146 silly tarball no local data for @types/node@https://registry.npmmirror.com/@types/node/-/node-20.19.39.tgz. Extracting by manifest.
+147 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.4.tgz. Extracting by manifest.
+148 silly tarball no local data for @tailwindcss/postcss@https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.2.4.tgz. Extracting by manifest.
+149 silly tarball no local data for @next/env@https://registry.npmmirror.com/@next/env/-/env-16.2.4.tgz. Extracting by manifest.
+150 silly tarball no local data for @typescript-eslint/eslint-plugin@https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.1.tgz. Extracting by manifest.
+151 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz. Extracting by manifest.
+152 silly tarball no local data for @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.14.tgz. Extracting by manifest.
+153 silly tarball no local data for zod@https://registry.npmmirror.com/zod/-/zod-4.4.1.tgz. Extracting by manifest.
+154 silly tarball no local data for @babel/parser@https://registry.npmmirror.com/@babel/parser/-/parser-7.29.2.tgz. Extracting by manifest.
+155 silly tarball no local data for @anthropic-ai/sdk@https://registry.npmmirror.com/@anthropic-ai/sdk/-/sdk-0.81.0.tgz. Extracting by manifest.
+156 silly tarball no local data for @babel/compat-data@https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.29.0.tgz. Extracting by manifest.
+157 silly tarball no local data for @anthropic-ai/claude-agent-sdk-win32-x64@https://registry.npmmirror.com/@anthropic-ai/claude-agent-sdk-win32-x64/-/claude-agent-sdk-win32-x64-0.2.123.tgz. Extracting by manifest.
+158 silly tarball no local data for @anthropic-ai/claude-agent-sdk@https://registry.npmmirror.com/@anthropic-ai/claude-agent-sdk/-/claude-agent-sdk-0.2.123.tgz. Extracting by manifest.
+159 silly tarball no local data for typescript-eslint@https://registry.npmmirror.com/typescript-eslint/-/typescript-eslint-8.59.1.tgz. Extracting by manifest.
+160 silly tarball no local data for unrs-resolver@https://registry.npmmirror.com/unrs-resolver/-/unrs-resolver-1.11.1.tgz. Extracting by manifest.
+161 silly tarball no local data for resolve@https://registry.npmmirror.com/resolve/-/resolve-2.0.0-next.6.tgz. Extracting by manifest.
+162 silly tarball no local data for qs@https://registry.npmmirror.com/qs/-/qs-6.15.1.tgz. Extracting by manifest.
+163 silly tarball no local data for next@https://registry.npmmirror.com/next/-/next-16.2.4.tgz. Extracting by manifest.
+164 silly tarball no local data for postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.12.tgz. Extracting by manifest.
+165 silly tarball no local data for json5@https://registry.npmmirror.com/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+166 silly tarball no local data for hono@https://registry.npmmirror.com/hono/-/hono-4.12.15.tgz. Extracting by manifest.
+167 silly tarball no local data for semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+168 silly tarball no local data for express-rate-limit@https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-8.4.1.tgz. Extracting by manifest.
+169 silly tarball no local data for electron-to-chromium@https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.5.345.tgz. Extracting by manifest.
+170 silly tarball no local data for semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+171 silly tarball no local data for baseline-browser-mapping@https://registry.npmmirror.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.24.tgz. Extracting by manifest.
+172 silly tarball no local data for semver@https://registry.npmmirror.com/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+173 silly tarball no local data for brace-expansion@https://registry.npmmirror.com/brace-expansion/-/brace-expansion-5.0.5.tgz. Extracting by manifest.
+174 http fetch GET https://registry.npmmirror.com/which/-/which-2.0.2.tgz attempt 1 failed with EACCES
+175 http fetch GET https://registry.npmmirror.com/typescript/-/typescript-5.9.3.tgz attempt 1 failed with EACCES
+176 http fetch GET https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz attempt 1 failed with EACCES
+177 http fetch GET https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz attempt 1 failed with EACCES
+178 http fetch GET https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 1 failed with EACCES
+179 http fetch GET https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 1 failed with EACCES
+180 http fetch GET https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz attempt 1 failed with EACCES
+181 http fetch GET https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz attempt 1 failed with EACCES
+182 http fetch GET https://registry.npmmirror.com/jsesc/-/jsesc-3.1.0.tgz attempt 1 failed with EACCES
+183 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.1.tgz attempt 1 failed with EACCES
+184 http fetch GET https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.1.tgz attempt 1 failed with EACCES
+185 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.1.tgz attempt 1 failed with EACCES
+186 http fetch GET https://registry.npmmirror.com/eslint/-/eslint-9.39.4.tgz attempt 1 failed with EACCES
+187 http fetch GET https://registry.npmmirror.com/jiti/-/jiti-2.6.1.tgz attempt 1 failed with EACCES
+188 http fetch GET https://registry.npmmirror.com/acorn/-/acorn-8.16.0.tgz attempt 1 failed with EACCES
+189 http fetch GET https://registry.npmmirror.com/npm attempt 2 failed with EACCES
+190 http fetch GET https://registry.npmmirror.com/which/-/which-2.0.2.tgz attempt 2 failed with EACCES
+191 http fetch GET https://registry.npmmirror.com/typescript/-/typescript-5.9.3.tgz attempt 2 failed with EACCES
+192 http fetch GET https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz attempt 2 failed with EACCES
+193 http fetch GET https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz attempt 2 failed with EACCES
+194 http fetch GET https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 2 failed with EACCES
+195 http fetch GET https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 2 failed with EACCES
+196 http fetch GET https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz attempt 2 failed with EACCES
+197 http fetch GET https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz attempt 2 failed with EACCES
+198 http fetch GET https://registry.npmmirror.com/jsesc/-/jsesc-3.1.0.tgz attempt 2 failed with EACCES
+199 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.1.tgz attempt 2 failed with EACCES
+200 http fetch GET https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.1.tgz attempt 2 failed with EACCES
+201 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.1.tgz attempt 2 failed with EACCES
+202 http fetch GET https://registry.npmmirror.com/eslint/-/eslint-9.39.4.tgz attempt 2 failed with EACCES
+203 http fetch GET https://registry.npmmirror.com/jiti/-/jiti-2.6.1.tgz attempt 2 failed with EACCES
+204 http fetch GET https://registry.npmmirror.com/acorn/-/acorn-8.16.0.tgz attempt 2 failed with EACCES
+205 http fetch GET https://registry.npmmirror.com/npm attempt 3 failed with EACCES
+206 http fetch GET https://registry.npmmirror.com/which/-/which-2.0.2.tgz attempt 3 failed with EACCES
+207 http fetch GET https://registry.npmmirror.com/typescript/-/typescript-5.9.3.tgz attempt 3 failed with EACCES
+208 http fetch GET https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz attempt 3 failed with EACCES
+209 http fetch GET https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz attempt 3 failed with EACCES
+210 http fetch GET https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 3 failed with EACCES
+211 http fetch GET https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 3 failed with EACCES
+212 http fetch GET https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz attempt 3 failed with EACCES
+213 http fetch GET https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz attempt 3 failed with EACCES
+214 http fetch GET https://registry.npmmirror.com/jsesc/-/jsesc-3.1.0.tgz attempt 3 failed with EACCES
+215 http fetch GET https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-8.59.1.tgz attempt 3 failed with EACCES
+216 http fetch GET https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.1.tgz attempt 3 failed with EACCES
+217 http fetch GET https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.1.tgz attempt 3 failed with EACCES
+218 http fetch GET https://registry.npmmirror.com/eslint/-/eslint-9.39.4.tgz attempt 3 failed with EACCES
+219 http fetch GET https://registry.npmmirror.com/jiti/-/jiti-2.6.1.tgz attempt 3 failed with EACCES
+220 http fetch GET https://registry.npmmirror.com/acorn/-/acorn-8.16.0.tgz attempt 3 failed with EACCES
+221 verbose cwd E:\Codex
+222 verbose os Windows_NT 10.0.22621
+223 verbose node v22.20.0
+224 verbose npm  v11.8.0
+225 error Exit handler never called!
+226 error This is an error with npm itself. Please report this error at:
+227 error   <https://github.com/npm/cli/issues>
+228 verbose exit 1
+229 verbose code 1
+230 error A complete log of this run can be found in: E:\Codex\AuraPlayer\.npm-cache\_logs\2026-05-25T16_45_53_985Z-debug-0.log

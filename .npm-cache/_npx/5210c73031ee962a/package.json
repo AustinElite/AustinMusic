@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bv2mp3": "^3.1.0"
+  },
+  "_npx": {
+    "packages": [
+      "bv2mp3"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+0 verbose cli D:\NodeJs\Node\node.exe D:\NodeJs\Node\node_global\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.8.0
+2 info using node@v22.20.0
+3 silly config load:file:D:\NodeJs\Node\node_global\node_modules\npm\npmrc
+4 silly config load:file:E:\ForkDemo\AuraPlayerMusic\20260526\.npmrc
+5 silly config load:file:C:\Users\LENOVO\.npmrc
+6 silly config load:file:D:\NodeJs\Node\node_global\etc\npmrc
+7 verbose title npm exec bv2mp3 --url=https://www.bilibili.com/video/BV1xh9iBjEa8
+8 verbose argv "exec" "--yes" "--cache" "E:\\Codex\\AuraPlayer\\.npm-cache" "--prefer-offline" "--" "bv2mp3" "--url=https://www.bilibili.com/video/BV1xh9iBjEa8"
+9 verbose logfile logs-max:10 dir:E:\Codex\AuraPlayer\.npm-cache\_logs\2026-05-26T10_50_41_375Z-
+10 verbose logfile E:\Codex\AuraPlayer\.npm-cache\_logs\2026-05-26T10_50_41_375Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:8495562752 maxSize:2123890688 maxEntrySize:1061945344
+13 http fetch GET 200 https://registry.npmmirror.com/bv2mp3 14ms (cache stale)
+14 silly packumentCache heap:8495562752 maxSize:2123890688 maxEntrySize:1061945344
+15 silly packumentCache heap:8495562752 maxSize:2123890688 maxEntrySize:1061945344
