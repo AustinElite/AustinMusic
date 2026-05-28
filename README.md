@@ -78,7 +78,7 @@ Copy-Item .env.example .env.local
 
 ```env
 # 推荐 DeepSeek，兼容 Anthropic SDK 调用方式
-ANTHROPIC_BASE_URL=https://api.deepseek.com
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 ANTHROPIC_API_KEY=your-api-key-here
 
 # 本地音乐目录。建议使用绝对路径。
