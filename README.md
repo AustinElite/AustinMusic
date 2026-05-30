@@ -57,6 +57,8 @@ Austin Music 是一个基于 Next.js 的 AI 音乐播放器。它把本地曲库
 ### 2. 安装依赖
 
 ```bash
+git clone https://github.com/AustinElite/AustinMusic.git
+cd AustinMusic
 npm install
 ```
 
